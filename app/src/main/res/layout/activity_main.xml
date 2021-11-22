@@ -10,9 +10,15 @@
     <androidx.cardview.widget.CardView
         android:layout_width="376dp"
         android:layout_height="263dp"
+<<<<<<< HEAD
         app:cardBackgroundColor="#FDFDFD"
         app:cardCornerRadius="30dp"
         app:cardElevation="40dp"
+=======
+        app:cardBackgroundColor="#C9EFF4"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+>>>>>>> 5c356cadd529595be7f715d011d145fa87d4d463
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
@@ -23,7 +29,7 @@
 
         <TextView
             android:layout_width="124dp"
-            android:layout_height="30dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:text="@string/Descrip"
             android:textColor="@color/black"
@@ -44,9 +50,7 @@
             android:layout_marginBottom="20dp"
             android:text="@string/NeivaLugar"
             android:textColor="@color/black"
-            android:textSize="15dp"
-            tools:layout_editor_absoluteX="15dp"
-            tools:layout_editor_absoluteY="355dp" />
+            android:textSize="15dp" />
 
     </androidx.cardview.widget.CardView>
 
@@ -63,11 +67,12 @@
 
         app:srcCompat="@drawable/image" />
 
-    <androidx.cardview.widget.CardView
+    <androidx.constraintlayout.motion.widget.MotionLayout
         android:id="@+id/cardView"
         android:layout_width="382dp"
         android:layout_height="48dp"
         app:cardBackgroundColor="#7C020202"
+        app:layoutDescription="@xml/activity_main_xml_cardview_scene"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.494"
@@ -77,23 +82,26 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="97dp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="\nTegua Travel"
-            android:layout_marginLeft="5dp"
             android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="157dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Desierto de la Tatacoa"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:layout_marginLeft="5dp"
             android:textStyle="bold" />
 
-    </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
