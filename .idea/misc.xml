@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Equipo/Documentos/Mision tic/Udea/Curso4/Proyecto/app/src/main/res/layout/activity_despegable.xml" value="0.25" />
         <entry key="..\:/Equipo/Documentos/Mision tic/Udea/Curso4/Proyecto/app/src/main/res/layout/activity_lista_lugares.xml" value="0.33" />
-        <entry key="..\:/Equipo/Documentos/Mision tic/Udea/Curso4/Proyecto/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Equipo/Documentos/Mision tic/Udea/Curso4/Proyecto/app/src/main/res/layout/activity_lista_lugares_view.xml" value="0.2033514492753623" />
+        <entry key="..\:/Equipo/Documentos/Mision tic/Udea/Curso4/Proyecto/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Equipo/Documentos/Mision tic/Udea/Curso4/Proyecto/app/src/main/res/layout/item_lugar.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/StudioProjects/AppMovilMinTic/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
