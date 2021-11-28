@@ -3,6 +3,8 @@ package com.example.turistic
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -25,5 +27,16 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("Lugar",ListaLugar[position])
             startActivity(intent)
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_contextual,menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId==R.id.menuOpcion1)
+            startActivity(Intent(this,MenuActivity::class.java))
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TurisTic">
         <activity
+            android:name=".MenuActivity"
+            android:exported="true" />
+        <activity
             android:name=".Despegable"
             android:exported="true" />
         <activity
