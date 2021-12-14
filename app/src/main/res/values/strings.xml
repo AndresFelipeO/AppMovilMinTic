@@ -2,5 +2,12 @@
     <string name="app_name">TurisTic</string>
     <string name="Descrip">Descripción</string>
     <string name="NeivaLugar">Este tour esta creado para todo publico tendras la oportunidad de conocer el rio magdalena, villa vieja ,montar en lancha, disfrutar de la naturaleza, caminar en el desierto de la tatacoa, conocer su morfologia sus piscinas sus 3 desierto sus misterios, poder disfrutar de uno de los cilos con calificacion star light para observar estrellas en el mundo, conocer la gastronomia tipica del huila, sus costumbres y mucho mas</string>
+    <string name="tegua_travel">Tegua Travel</string>
+    <string name="desierto_de_la_tatacota">Desierto de la tatacota</string>
+    <string name="_30">30°</string>
+    <string name="todo1">TODO</string>
+    <string name="_5">5</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
 
 </resources>

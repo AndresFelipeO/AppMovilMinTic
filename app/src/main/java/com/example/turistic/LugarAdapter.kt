@@ -15,7 +15,7 @@ class LugarAdapter(private val mContext:Context,private val ListaLuagres:List<Lu
         layautt.textdate.text=lugar.breDescrip
         layautt.textGrados.text="${lugar.grados}"
         layautt.textEstrellas.text="${lugar.estrellas}"
-        layautt.imageLugar.setImageResource(lugar.imang)
+        //layautt.imageLugar.setImageResource(lugar.imang)
 
         return  layautt
     }
