@@ -23,20 +23,18 @@ class Despegable : AppCompatActivity() {
         textTemperatura.text="${lugar.grados}"
         ubicacion.text=lugar.nombreSitio
         //imageLugar.setImageResource(lugar.imang)
-val ubic=findViewById<CardView>(R.id.Ubicación)
-        ubic.setOnClickListener( {
-            launchMap()
+
+        val ubi=findViewById<CardView>(R.id.Ubicacion)
+        ubi.setOnClickListener({
+            launchMap(lugar.lat,lugar.ing)
         })
 
-        val prueba=findViewById<Button>(R.id.button1)
-        prueba.setOnClickListener {
-            Log.d("Lugar","")
-            launchMap()
-        }
+
 
     }
-    private fun launchMap() {
-        val gmmIntentUri = Uri.parse("geo:37.7749,-122.4194")
+    private fun launchMap(lat:String,long:String) {
+        val geo="geo:$lat,$long"
+        val gmmIntentUri = Uri.parse(geo)
         val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
         mapIntent.setPackage("com.google.android.apps.maps")
         mapIntent.resolveActivity(packageManager)?.let {

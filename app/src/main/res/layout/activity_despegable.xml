@@ -11,7 +11,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="399dp"
-        android:layout_height="215dp"
+        android:layout_height="245dp"
         android:baselineAligned="false"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -134,7 +134,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/Ubicación"
+                android:id="@+id/Ubicacion"
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
                 android:layout_margin="8dp"
@@ -159,7 +159,7 @@
                         android:layout_width="48dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="@string/_5"
+                        android:text="Ubicar"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
@@ -176,12 +176,12 @@
         android:layout_height="241dp"
         android:layout_margin="10dp"
         app:cardCornerRadius="30dp"
-        app:cardElevation="20dp"
+        app:cardElevation="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.22000003">
+        app:layout_constraintVertical_bias="0.32">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -210,16 +210,4 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-
-        android:backgroundTint="#03A9F4"
-        android:text="Ubicación"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

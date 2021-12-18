@@ -9,5 +9,7 @@ data class LugarTuristico(
     val breDescrip: String,
     val grados:Double,
     val estrellas: Double,
+    val lat:String,
+    val ing:String
     //val imang:Int
 ):Serializable
